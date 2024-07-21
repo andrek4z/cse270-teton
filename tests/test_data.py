@@ -34,4 +34,4 @@ def test_data_endpoint(mock_requests_get):
     assert isinstance(first_business, dict)
     assert 'name' in first_business
     assert first_business['name'] == 'Teton Elementary'
-    # Add additional assertions as needed based on the expected response
+    # Add additional assertions as needed based on the expected response1
